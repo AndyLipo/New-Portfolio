@@ -1,17 +1,24 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import { Route, Routes } from 'react-router-dom'
+import  About  from './Pages/About/About'
+import Home from './Pages/Home/Home'
+import {Projects} from './Pages/Projects/Projects'
 import './index.css'
+import ProyectosCuerpo from './Components/Home/ProyectosCuerpo'
+import Contacto from './Pages/Contact/Contacto'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-     <div className="flex min-h-screen items-center justify-center">
-      <h1 className="text-3xl font-bold text-blue-600">
-        Hola Tailwind + Vite!
-      </h1>
+    <div>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="sobreMi" element={<About />}/>
+          <Route path="inicio" element={<Home />}/>
+          <Route path="projectos" element={<Projects />}/>
+          <Route path="/" element={<ProyectosCuerpo />}/>
+          <Route path="contacto" element={<Contacto />}/>
+        </Routes>
     </div>
     </>
   )
