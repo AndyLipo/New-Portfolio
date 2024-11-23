@@ -36,7 +36,7 @@ const ProyectosCuerpo = () => {
       <div className="flex flex-wrap -mx-4">
         {/* Sección de texto */}
         <div className="w-full md:w-1/2 px-4 mb-8 md:mb-0">
-          <div className="animate-fadeInUp">
+          <div className="pl-8 animate-fadeInUp">
             <h2 className="text-3xl font-bold mb-4">Mis Proyectos</h2>
             <p className="text-gray-700 mb-6">
             Elegí destacar los proyectos más relevantes de mi trayectoria. <br />

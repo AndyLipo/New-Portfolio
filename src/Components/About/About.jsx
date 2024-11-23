@@ -30,8 +30,10 @@ export const AboutComponent = () => {
           <div className="text-center">
             <h2 className="text-3xl font-bold mb-6">Sobre mi</h2>
             <p className="text-gray-700">
-            Soy un apasionado por desarrollar productos y páginas.<br />
-            Mi interés por la programación comenzó cuando tuve la oportunidad de capacitarme para enseñar programación orientada a objetos a niños de nivel primario.
+            En mi formación, me especialicé en tecnologías Front-End, como HTML, CSS y JavaScript, y amplié mis conocimientos hacia el desarrollo Full-Stack utilizando Node.js y React.js. 
+            <br/> Además, adquirí competencias en bases de datos, manejo de APIs y herramientas modernas como Tailwind CSS.
+            <br/>Tuve la oportunidad de participar en una pasantía en el Polo IT, donde trabajé en proyectos colaborativos aplicando metodologías ágiles. 
+            <br/>También formé parte de una mentoría con Globant Inc. en 2024, donde desarrollé un MVP que integró todas las habilidades adquiridas, desde la planificación hasta la implementación.
             </p>
           </div>
         </article>
@@ -44,7 +46,7 @@ export const AboutComponent = () => {
         
         <header className="mb-16 relative">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold animate-fadeInDown">OUR WORK</h2>
+            <h2 className="text-3xl font-bold animate-fadeInDown">Mi experiencia</h2>
           </div>
         </header>
 

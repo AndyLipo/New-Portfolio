@@ -22,8 +22,9 @@ const Navbar = () => {
             {/* Logo Section */}
             <div className="w-1/3">
             <div className="site-branding">
-                <NavLink to="/#" className="text-2xl font-bold">
-                <h1>Andres Liporace</h1>
+                <NavLink to="/#">
+                <h1 className="text-2xl font-bold">Andres Liporace</h1>
+                <p>Front-End Developer</p>
                 </NavLink>
             </div>
             </div>
