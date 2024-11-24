@@ -1,4 +1,6 @@
 import { Trophy, Award, Wand2, Monitor } from 'lucide-react'; // Importamos iconos similares
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faHtml5, faJs, faReact, faGithub } from '@fortawesome/free-brands-svg-icons';
 
 export const CuerpoHome = () => {
   return (
@@ -15,16 +17,16 @@ export const CuerpoHome = () => {
 
       <ul className="flex justify-center gap-8 animate-fadeIn">
         <li className="p-4 hover:scale-110 transition-transform">
-          <Trophy className="w-8 h-8" />
+        <FontAwesomeIcon icon={faReact} className="text-blue-500 text-4xl" />
         </li>
         <li className="p-4 hover:scale-110 transition-transform">
-          <Award className="w-8 h-8" />
+          <FontAwesomeIcon icon={faJs}  className="text-yellow-500 text-4xl" />
         </li>
         <li className="p-4 hover:scale-110 transition-transform">
-          <Wand2 className="w-8 h-8" />
+        <FontAwesomeIcon icon={faHtml5}  className="text-orange-500 text-4xl" />
         </li>
         <li className="p-4 hover:scale-110 transition-transform">
-          <Monitor className="w-8 h-8" />
+        <FontAwesomeIcon icon={faGithub}  className="text-black-500 text-4xl" />
         </li>
       </ul>
     </div>

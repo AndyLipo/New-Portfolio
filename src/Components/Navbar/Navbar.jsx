@@ -9,7 +9,7 @@ const Navbar = () => {
 
   const menuItems = [
     { id: 1, name: 'Inicio',  to: "/", className: 'show-1 homebutton', isActive: true },
-    { id: 2, name: 'Sobre Mi', to: "/sobreMi", className: 'show-2 aboutbutton' },
+   // { id: 2, name: 'Sobre Mi', to: "/sobreMi", className: 'show-2 aboutbutton' },
     { id: 3, name: 'Proyectos', to: "/projectos", className: 'show-3 projectbutton' },
     { id: 5, name: 'Contacto', to: "/contacto", className: 'show-5 contactbutton' }
   ];
